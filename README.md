@@ -5,9 +5,9 @@ This project was done in the "Deep Learning" course.
 ### 📌 Project Overview
 This project classifies lung cancer images into three categories:
 
-Benign Cases
-Malignant Cases
-Normal Cases
+- Benign Cases
+- Malignant Cases
+- Normal Cases
 
 ### The models used include:
 #### ✅ Convolutional Neural Networks (CNNs) trained from scratch
@@ -25,29 +25,29 @@ This project explores data augmentation, class balancing techniques, hyperparame
 ### 🛠️ Methodology
 
 #### 1️⃣ Data Preprocessing & Augmentation
-Converted grayscale images to 3-channel format (for transfer learning models).
-Applied data augmentation (rotation, zoom, flip) to increase dataset diversity.
-Computed class weights to counteract class imbalance.
+- Converted grayscale images to 3-channel format (for transfer learning models).
+- Applied data augmentation (rotation, zoom, flip) to increase dataset diversity.
+- Computed class weights to counteract class imbalance.
 
 #### 2️⃣ Model Training & Hyperparameter Tuning
-CNN Model (Trained from Scratch)
-Built a Convolutional Neural Network (CNN) using the Functional API.
-Applied early stopping to prevent overfitting.
-Used class weights to improve model performance on minority classes.
-Hyperparameter Tuning
-Used KerasTuner’s Hyperband to optimize:
-Number of filters per layer
-Dense layer units
-Dropout rate
-Learning rate
-Transfer Learning Model (VGG16, ResNet, EfficientNet)
-Used VGG16/ResNet/EfficientNet pretrained models with frozen layers.
-Fine-tuned the top layers for better feature extraction.
+- CNN Model (Trained from Scratch)
+    - Built a Convolutional Neural Network (CNN) using the Functional API.
+    - Applied early stopping to prevent overfitting.
+    - Used class weights to improve model performance on minority classes.
+    - Hyperparameter Tuning
+- Used KerasTuner’s Hyperband to optimize:
+    - Number of filters per layer
+    - Dense layer units
+    - Dropout rate
+    - Learning rate
+- Transfer Learning Model (VGG16, ResNet, EfficientNet)
+    - Used VGG16/ResNet/EfficientNet pretrained models with frozen layers.
+    - Fine-tuned the top layers for better feature extraction.
 
 #### 3️⃣ Model Evaluation & Performance Comparison
 The models were evaluated using:
-Precision, Recall, F1-Score (to assess class-wise performance).
-Confusion Matrices (to visualize classification accuracy per class).
+- Precision, Recall, F1-Score (to assess class-wise performance).
+- Confusion Matrices (to visualize classification accuracy per class).
 
 ### 📊 Model Performance Comparison
 
