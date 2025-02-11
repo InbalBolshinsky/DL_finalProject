@@ -17,10 +17,10 @@ This project explores data augmentation, class balancing techniques, hyperparame
 
 ### 🔹Dataset
 #### The dataset used in this project is The IQ-OTHNCCD Lung Cancer Dataset. Ensure that images are stored in the correct folder:
-📂 dataset/
-    ├── Benign/
-    ├── Malignant/
-    ├── Normal/
+📂 dataset/  
+    ├── Benign/  
+    ├── Malignant/  
+    ├── Normal/  
 
 ### 🛠️ Methodology
 
