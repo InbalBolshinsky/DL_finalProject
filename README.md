@@ -1,7 +1,10 @@
 # 🩺  DL_finalProject - Lung Cancer Classification using CNNs and Transfer Learning
 ### - A Deep Learning Approach for Multi-Class Lung Cancer Detection -
 
-### Participants: @InbalBolshinsky and @NicoleDavidov
+### 🤝 Contributors
+- Inbal Bolshinsky (@InbalBolshinsky)
+- Nicole Davidov (@NicoleDavidov)
+
 
 ### 📌 Project Overview
 This project classifies lung cancer images into three categories:
